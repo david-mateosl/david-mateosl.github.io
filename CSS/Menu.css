@@ -1,5 +1,5 @@
 .menu{
-    background-color: grey;
+    background-color: #9b9b9b;
 }
 .menu ul {
     list-style: none;
@@ -13,16 +13,16 @@
 }
 
 .menu .itemM a {
-    background-color: grey;
-    color: black;
+    background-color: #9b9b9b;
+    color: #111111;
     padding: 1em 1.5em;
     display: block;
     font-family:'Roboto Condensed';
     font-size: 1.45em;
-    text-decoration: grey;
+    text-decoration: #9b9b9b;
 }
 
 .menu a:hover{
-    background-color:#747474;
-    color: #747474;
+    background-color:#616161 ;
+    color: #616161 ;
 }

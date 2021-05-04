@@ -11,12 +11,12 @@ body {
 
 .piec {
     padding: 0.5em;
-    background-color: black;
+    background-color: #111111;
 }
 
 .pie1 {
     padding: 0.02em;
-    background-color: white;
+    background-color: #ffffff;
 }
 
 .mapa {
