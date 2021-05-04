@@ -12,7 +12,7 @@
     display: inline-block;
 }
 
-.menu .itemM .linkM {
+.menu .itemM a {
     background-color: grey;
     color: black;
     padding: 1em 1.5em;
@@ -20,4 +20,8 @@
     font-family:'Roboto Condensed';
     font-size: 1.45em;
     text-decoration: grey;
+}
+
+.menu a:hover{
+    background-color:#747474;
 }
