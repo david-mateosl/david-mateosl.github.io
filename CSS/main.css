@@ -1,0 +1,21 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #e4e4e4;
+    font-size: 14px;
+    font-family: 'Roboto Condensed';
+}
+
+.piec {
+    padding: 0.5em;
+    background-color: black;
+}
+
+.pie1 {
+    padding: 0.02em;
+    background-color: white;
+}
+

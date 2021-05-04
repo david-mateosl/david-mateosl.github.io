@@ -1,0 +1,23 @@
+.menu{
+    background-color: grey;
+}
+.menu ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.menu .itemM {
+    display: inline-block;
+}
+
+.menu .itemM .linkM {
+    background-color: grey;
+    color: black;
+    padding: 1em 1.5em;
+    display: block;
+    font-family:'Roboto Condensed';
+    font-size: 1.45em;
+    text-decoration: grey;
+}
