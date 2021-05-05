@@ -14,27 +14,30 @@
   <link rel="stylesheet" type="text/css" href="CSS/main_movil.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+  <script src="./JavaScript/menu_movil.js" language="JavaScript" type="text/javascript"></script>
   <title>Coches</title>
 </head>
 
 <body>
-  <div class="contenerdor">
+  <div class="contenerdor" id="miNav">
     <div class="cabecera">
       <div class="menu"> <!--Menu desplegable-->
         <ul>
           <li class="itemM"><a class="linkM" href="/index.html">Inicio</a></li>
           <li class="itemM"><a class="linkM" href="">Paises</a></li>
-          <li class="itemM" id="qmapa"><a class="linkM" href="/Mapa.html">Mapa</a></li>
+          <li class="itemM"><a class="linkM" href="/Mapa.html">Mapa</a></li>
           <li class="itemM"><a class="linkM" href="">Contacto</a></li>
         </ul>
       </div>
       <div><img src="/Imágenes/coche.ico" class="logo"></div> <!--Icono del menu desplegable-->
     </div>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="MenuMovil">&#9776; open</span> <!--Solo debe mostrarse en Movil ya que Forma parte del menu-->
     <div class="piec">
                                 <!--Pie de la cabezera-->
       <div class="pie1"></div>
     </div>
   </div>
+
 </body>
 
 </html>

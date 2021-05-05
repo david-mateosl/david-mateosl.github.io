@@ -3,7 +3,15 @@
         background-color: orange;
     }
 
-    #qmapa {
+    .itemM {
         display: none;
+    }
+
+    .MenuMovil{
+        display: flex;
+    }
+
+    .contenedor{
+
     }
 }
