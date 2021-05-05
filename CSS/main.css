@@ -23,10 +23,22 @@ body {
    block-size: 100%;
 }
 
-.CajaMapa{
-    display: grid;
-}
-
 .mapam{
     width: 100%;
+}
+
+.cabecera{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-between;
+    background-color: #9b9b9b;
+}
+
+.logo{
+    width: 50%;
+    align-content:flex-end;
+    display: flex;
+    align-content:space-between;
+    background-color: #9b9b9b;
 }
