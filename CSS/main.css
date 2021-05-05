@@ -23,7 +23,10 @@ body {
    block-size: 100%;
 }
 
+.CajaMapa{
+    display: grid;
+}
+
 .mapam{
-    height: 100%;
     width: 100%;
 }
