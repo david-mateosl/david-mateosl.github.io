@@ -1,0 +1,64 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:'Titillium Web', sans-serif;
+}
+
+
+body{
+    background-size: cover;
+    background-position: center;
+}
+
+.contenedorform{
+    background-image: url(../Imágenes/Fondo\ formulario.png);
+    background-position:initial;
+    background-size: 100%;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+form{
+    display: flex;
+    flex-flow: column;
+    background-color: white;
+    width: 40%;
+    height: 80%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 50px;
+    border-radius: 10px;
+}
+
+input, textarea{
+    font-size: 18px;
+    border: none;
+    resize: none;
+    outline: none;
+    padding: 15px 0px;
+    width: 80%;
+    margin: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 10);
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 12px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+    margin: 39px 0px;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+button:hover{
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.9) 0px 0px 10px;
+}
