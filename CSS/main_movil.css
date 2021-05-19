@@ -3,15 +3,22 @@
         background-color: orange;
     }
 
-    .itemM {
+    .menu {
+        display: flex;
+        flex-direction: row;
+        font-size: 2.06em;
+        text-align: center;
+    }
+    
+    #Mapa{
         display: none;
     }
 
-    .MenuMovil{
+    .logo{
+        display: none;
+        /*width: 50%;
         display: flex;
-    }
-
-    .contenedor{
-
+        align-content:space-between;
+        background-color: #9b9b9b;*/
     }
 }
