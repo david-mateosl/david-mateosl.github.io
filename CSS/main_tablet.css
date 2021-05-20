@@ -1,0 +1,18 @@
+@media screen and (max-width: 1300px){
+    body {
+        background-color: #e4e4e4;
+    }
+
+    .logo {
+        display: flex;
+        width: 50%;
+        padding: 0;
+        background-color: #9b9b9b;
+    }
+
+    .menu{
+        display: flex;
+        align-content: left;
+        width: 70%;
+    }
+}
