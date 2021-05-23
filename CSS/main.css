@@ -99,3 +99,89 @@ body {
     cursor: pointer;
 }
 
+.Titulo{
+    font-size: 40px;
+    padding-top: 1em;
+    padding-left: 2%;
+}
+
+.Parrafo1{
+    display: flex;
+    padding-top: 0.9em;
+    padding-left: 4%;
+    font-size: 14px;
+}
+
+.curiosidades{
+    font-size: 20px;
+}
+
+.Parrafo1 > div > img {
+    padding-left: 10em;
+}
+
+.Parrafo2{
+    padding-top: 0.9em;
+    padding-left: 4%;
+    font-size: 14px;
+}
+
+.MarcasFamosas{
+    padding-top: 1em;
+    padding-left: 1%;
+    font-size: 20px;
+}
+
+.cajalambo {
+    padding-top: 15px;
+    padding-bottom: 110px;
+}
+
+.cajalambo > p{
+    padding-top: 10px;
+}
+
+.cajaferrari {
+    padding-top: 15px;
+    padding-bottom: 110px;
+}
+
+.cajaferrari > p{
+    padding-top: 10px;
+}
+
+.cajabmw {
+    padding-top: 15px;
+    padding-bottom: 110px;
+}
+
+.cajabmw > p{
+    padding-top: 10px;
+}
+
+.cajaMercedes-Benz {
+    padding-top: 15px;
+    padding-bottom: 110px;
+}
+
+.cajaMercedes-Benz > p{
+    padding-top: 10px;
+}
+
+.cajatoyota {
+    padding-top: 15px;
+}
+
+.cajatoyota > p{
+    padding-top: 10px;
+}
+
+.ImagenMarcasFamosas{
+    float: left;
+}
+
+
+
+
+
+
