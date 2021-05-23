@@ -170,6 +170,7 @@ body {
 
 .cajatoyota {
     padding-top: 15px;
+    padding-bottom: 110px;
 }
 
 .cajatoyota > p{
@@ -178,6 +179,11 @@ body {
 
 .ImagenMarcasFamosas{
     float: left;
+}
+
+.logo2{
+    background-color: grey;
+
 }
 
 
